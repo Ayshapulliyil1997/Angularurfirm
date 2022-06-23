@@ -18,7 +18,7 @@ import {CarouselComponent} from './carousel/carousel.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MainComponent } from './main/main.component';
-import { NavbarComponent } from './navbar/navbar.component';
+
 import { ModuleWithProviders } from '@angular/core';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { DataService } from './data.services';
@@ -46,7 +46,7 @@ import { TeamrouteComponent } from './teamroute/teamroute.component';
     FooterComponent,
     CarouselComponent,
     MainComponent,
-    NavbarComponent,
+    
     NewsComponent,
     ServicerouteComponent,
     TeamrouteComponent,
